@@ -21,7 +21,8 @@ from transformers import AutoModel, AutoTokenizer
 #         model.save_pretrained(save_dir)
 #         tokenizer.save_pretrained(save_dir)
 
-state_dict = load_file("")
+checkpoint = 450
+state_dict = load_file(f"model-checkpoint/checkpoint-{checkpoint}/model.safetensors")
 
 MODEL = "hiieu/halong_embedding"
 base_model = AutoModel.from_pretrained(MODEL)
