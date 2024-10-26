@@ -6,6 +6,7 @@ from transformers import AutoConfig, AutoModel, AutoTokenizer, TrainingArguments
 from modeling import LabelingModel
 from data_loader import QGDataset, QGDataCollator
 from training.trainer import ATrainer
+from save_model_checkpoint import save_model_checkpoint
 
 torch.autograd.set_detect_anomaly(True)
 
@@ -36,7 +37,8 @@ parser.add_argument("--learning_rate", type=float, default=2e-5)
 parser.add_argument("--weight_decay", type=float, default=0.01)
 parser.add_argument("--max_length", type=int, default=512)
 parser.add_argument("--save_steps", type=int, default=50)
-parser.add_argument("--save_dir", type=str, default="./bkai-embedding-encoder")
+parser.add_argument("--save_checkpoint", type=str, default="./model-checkpoint")
+parser.add_argument("--save_model", type=str, default="./embedding-encoder-model")
 parser.add_argument("--batch_size", type=int, default=16)
 parser.add_argument("--logging_steps", type=int, default=10)
 parser.add_argument("--log_dir", type=str, default="logs")
@@ -83,12 +85,13 @@ if __name__ == "__main__":
             # save_safetensors=True,
             eval_steps=None,
             save_steps=args.save_steps,
-            output_dir=args.save_dir,
+            output_dir=args.save_checkpoint,
             save_total_limit=5,
             load_best_model_at_end=False,
             ddp_find_unused_parameters=False if gpu_count > 1 else None,
             logging_dir=args.log_dir,
         ),
         data_collator=QGDataCollator(tokenizer, args.max_length),
+        save_model=save_model_checkpoint(args.save_model)
     )
     trainer.train()

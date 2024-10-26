@@ -1,16 +1,22 @@
 from safetensors.torch import load_file
 import torch
 from modeling import LabelingModel
+from transformers import AutoModel, AutoTokenizer
 
-state_dict = load_file("/content/Labeling/labeling/bkai-embedding-encoder/checkpoint-450/model.safetensors")
+class save_model_checkpoint:
+    def __init__(self, safetensors_path: str):
+        self.safetensors_path = safetensors_path
 
-MODEL = "hiieu/halong_embedding"
-base_model = AutoModel.from_pretrained(MODEL)
-tokenizer = AutoTokenizer.from_pretrained(MODEL)
+    def __call__(self):
+        state_dict = load_file(self.safetensors_path)
 
-model = LabelingModel(base_model, "mean")
-model.load_state_dict(state_dict)
+        MODEL = "hiieu/halong_embedding"
+        base_model = AutoModel.from_pretrained(MODEL)
+        tokenizer = AutoTokenizer.from_pretrained(MODEL)
 
-save_dir = "embedding-encoder"
-model.save_pretrained(save_dir)
-tokenizer.save_pretrained(save_dir)
+        model = LabelingModel(base_model, "mean")
+        model.load_state_dict(state_dict)
+
+        save_dir = "embedding-encoder"
+        model.save_pretrained(save_dir)
+        tokenizer.save_pretrained(save_dir)
