@@ -6,7 +6,6 @@ from transformers import AutoConfig, AutoModel, AutoTokenizer, TrainingArguments
 from modeling import LabelingModel
 from data_loader import QGDataset, QGDataCollator
 from training.trainer import ATrainer
-from save_model_checkpoint import save_model_checkpoint
 
 torch.autograd.set_detect_anomaly(True)
 
