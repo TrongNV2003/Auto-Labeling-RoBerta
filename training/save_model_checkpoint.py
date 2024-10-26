@@ -17,6 +17,6 @@ class save_model_checkpoint:
         model = LabelingModel(base_model, "mean")
         model.load_state_dict(state_dict)
 
-        save_dir = "embedding-encoder"
+        save_dir = "embedding-encoder-model"
         model.save_pretrained(save_dir)
         tokenizer.save_pretrained(save_dir)
