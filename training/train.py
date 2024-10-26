@@ -91,7 +91,6 @@ if __name__ == "__main__":
             ddp_find_unused_parameters=False if gpu_count > 1 else None,
             logging_dir=args.log_dir,
         ),
-        data_collator=QGDataCollator(tokenizer, args.max_length),
-        save_model=save_model_checkpoint(args.save_model)
+        data_collator=QGDataCollator(tokenizer, args.max_length)
     )
     trainer.train()
