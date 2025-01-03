@@ -1,16 +1,13 @@
 import json
 import torch
 from transformers import AutoTokenizer
-from typing import Mapping, Tuple
+from typing import Mapping
 
 class QGDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int = 0, pad_mask_id: int = 0, tokenizer: AutoTokenizer = None) -> None:
+    def __init__(self, json_file: str) -> None:
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         self.data = data
-        # self.max_length = max_length
-        # self.pad_mask_id = pad_mask_id
-        # self.tokenizer = tokenizer
 
     def __len__(self) -> int:
         return len(self.data)

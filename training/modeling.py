@@ -1,4 +1,3 @@
-import torch
 from torch import nn
 
 class LabelingModel(nn.Module):
@@ -10,7 +9,7 @@ class LabelingModel(nn.Module):
     def pool(self, hidden_states, attention_mask):  # [batch_size, seq_len, hidden_size]
         if self.pooling_type == "mean":
             hidden_states = hidden_states * attention_mask[:, :, None]
-            pooled = hidden_states.mean(dim=1) / attention_mask.sum(dim=-1, keepdim=True)
+            pooled = hidden_states.mean(dim=1) / (attention_mask.sum(dim=-1, keepdim=True) + 1e-9)
         elif self.pooling_type == "max":
             pooled = hidden_states.max(dim=1)
         else:
