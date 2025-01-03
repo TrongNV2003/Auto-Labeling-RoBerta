@@ -7,7 +7,7 @@ class ATrainer(Trainer):
 
         self.loss_fn = RankingLoss(**loss_kwargs)
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         representations, descriptions, labels = inputs
         reps_vecs = model(**representations)
         desc_vecs = model(**descriptions)
