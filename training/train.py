@@ -41,7 +41,7 @@ parser.add_argument("--save_model", type=str, default="model-checkpoint/checkpoi
 parser.add_argument("--batch_size", type=int, default=16)
 parser.add_argument("--logging_steps", type=int, default=10)
 parser.add_argument("--log_dir", type=str, default="logs")
-parser.add_argument("--train_file", type=str, default="dataset1/dataset.json")
+parser.add_argument("--train_file", type=str, default="intent_dataset/train.json")
 parser.add_argument("--seed", type=int, default=42)
 
 args = parser.parse_args()

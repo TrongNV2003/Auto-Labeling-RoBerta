@@ -17,8 +17,8 @@ class QGDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
-        text_representation = item["Diễn giải"]
-        text_description = item["Mô tả chi tiết cho \"Nghiệp vụ chi tiết\""]
+        text_representation = item["labeled_text"]
+        text_description = item["labeled_intent"]
 
         return text_representation, text_description
 
@@ -47,7 +47,7 @@ class QGDataCollator:
             return_tensors="pt"
         )
 
-        labels = torch.arange(len(batch), dtype=torch.long)
+        # labels = torch.arange(len(batch), dtype=torch.long)
 
-        return representations, descriptions, labels
+        return representations, descriptions
     
