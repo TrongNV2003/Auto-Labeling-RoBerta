@@ -2,1206 +2,1447 @@
     {
         "key": "27495_in_[0, 3, 4]",
         "labeled_text": "mô tê cái gì ờm chút nữa thôi khiêng cái đấy đi đi",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27524_out_[1, 2]",
         "labeled_text": "chị giao cái đơn cây mai đây giao đơn cây mai",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27524_in_[1, 2, 3, 4]",
         "labeled_text": "nhầm ờ nhầm máy rồi nhầm nhầm máy không không không không phải",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27525_out_[0]",
         "labeled_text": "anh anh có đơn hàng cái chăn lông thỏ anh nhận hàng ở cụm mấy xuân đỉnh anh nhờ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27525_in_[1]",
         "labeled_text": "cái đơn giao gì đấy ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27525_out_[1]",
         "labeled_text": "chăn lông thỏ ấy anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27525_in_[2]",
         "labeled_text": "mười chín sáu năm yên định ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27525_out_[2, 3, 4]",
         "labeled_text": "mười chín số năm ở thuận yên ạ ô kê ô kê anh nhá rồi rồi thế chiều em qua giao cho",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27525_out_[2, 3, 4]",
         "labeled_text": "mười chín số năm ở thuận yên ạ ô kê ô kê anh nhá rồi rồi thế chiều em qua giao cho",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27584_out_[1]",
         "labeled_text": "chị có đơn hàng này sáng nay chị có nhận được không ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27584_in_[1]",
         "labeled_text": "có em đang ở nhà này bao giờ anh giao đấy",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27584_out_[2]",
         "labeled_text": "thế em tầm khoảng phải gần chín giờ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27584_in_[3, 4]",
         "labeled_text": "ừ rồi rồi bằng cái gì đấy nhở áo áo dài à hay cái gì",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27586_out_[0]",
         "labeled_text": "alo em giao hàng nước giặt về thôn ngũ dân chị ở ngõ mười ba số nhà bao nhiêu nhỉ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27586_in_[1]",
         "labeled_text": "em ở cuối xóm",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27586_out_[1]",
         "labeled_text": "sáng chị có nhà không em chở qua bây giờ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27586_in_[3]",
         "labeled_text": "đang đi học anh giao cho bà bà em ở nhà không",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27586_out_[2]",
         "labeled_text": "vâng vâng để em giao hàng",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27587_out_[1]",
         "labeled_text": "chị ơi có đơn hàng một trăm nhận hàng ở vinh nào ấy nhờ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27587_out_[1]",
         "labeled_text": "chị ơi có đơn hàng một trăm nhận hàng ở vinh nào ấy nhờ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27587_in_[1]",
         "labeled_text": "trên tỉnh gửi cho cô",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27587_out_[2, 3, 4]",
         "labeled_text": "nước ở đâu nhở nước gì nhờ cháu nghe chưa rõ nhà nhà chị hồng ung bảy đấy à",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27587_out_[2, 3, 4]",
         "labeled_text": "nước ở đâu nhở nước gì nhờ cháu nghe chưa rõ nhà nhà chị hồng ung bảy đấy à",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27587_in_[5]",
         "labeled_text": "gửi ở đấy cho cô thì gọi điện đi cô bảo nó bảo trả tiền cho luôn",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27587_out_[5]",
         "labeled_text": "nhà nhà sửa hồng bảy đúng không",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27587_in_[6]",
         "labeled_text": "cho cô nghe",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27594_out_[1]",
         "labeled_text": "anh có đơn hàng có nhà không em mang qua anh ơi",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27594_in_[0]",
         "labeled_text": "ờ em đang ở chỗ nào đấy",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27594_out_[2]",
         "labeled_text": "em đang ở cổng làng đi vào nhà anh đấy",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27594_in_[1, 2, 3]",
         "labeled_text": "giờ cổng làng à thế thì ờ bây giờ đang ở cổng làng đúng không ừ thế em em em từ cổng làng em em em chạy lên chỗ ngã tư anh đang đứng chỗ ngã tư này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27594_in_[1, 2, 3]",
         "labeled_text": "giờ cổng làng à thế thì ờ bây giờ đang ở cổng làng đúng không ừ thế em em em từ cổng làng em em em chạy lên chỗ ngã tư anh đang đứng chỗ ngã tư này",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27594_out_[4]",
         "labeled_text": "từ à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27594_in_[4]",
         "labeled_text": "ờ chỗ quán điện thoại ấy tiêu tùng mobile nhể",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27596_in_[0]",
         "labeled_text": "ờ cái gì đấy",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27596_out_[1, 3]",
         "labeled_text": "vâng anh ơi mình có đơn hàng của nguyễn si lanh ở trạm lộng đấy ạ chú đoạn nào chú nhể",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27596_out_[1, 3]",
         "labeled_text": "vâng anh ơi mình có đơn hàng của nguyễn si lanh ở trạm lộng đấy ạ chú đoạn nào chú nhể",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27596_in_[3]",
         "labeled_text": "cứ chuyển sang đi",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27596_out_[6, 7]",
         "labeled_text": "ơ thế thì bác nhà bác hải à bác hải đấy ạ vâng vâng tí tí vâng tí đâu khoảng chín rưỡi mười giờ cháu chạy sang",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27596_out_[6, 7]",
         "labeled_text": "ơ thế thì bác nhà bác hải à bác hải đấy ạ vâng vâng tí tí vâng tí đâu khoảng chín rưỡi mười giờ cháu chạy sang",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27604_out_[2, 3]",
         "labeled_text": "ờ tí anh qua anh gọi em ở nhà trình đấy à ờ tí anh qua anh gọi nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27607_out_[0]",
         "labeled_text": "anh ơi có cái đơn thuốc của anh ở thôn ba ý viên liệu trình ý anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27607_out_[0]",
         "labeled_text": "anh ơi có cái đơn thuốc của anh ở thôn ba ý viên liệu trình ý anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27607_in_[1]",
         "labeled_text": "tối mai chứ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27607_out_[1]",
         "labeled_text": "thôn hai ở chỗ nào thôn hai anh nhờ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27607_in_[2]",
         "labeled_text": "giờ giờ lên chỗ ủy ban cái đã nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27607_out_[2]",
         "labeled_text": "rồi em chưa đi đâu em à gọi trước anh vì hôm qua em gọi anh cả buổi không được",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27607_in_[4, 5]",
         "labeled_text": "giờ nhiều số lạ nó cứ nhiễu quá nên không muốn nghe bây giờ tí nữa xuống chỗ ủy ban nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27607_in_[4, 5]",
         "labeled_text": "giờ nhiều số lạ nó cứ nhiễu quá nên không muốn nghe bây giờ tí nữa xuống chỗ ủy ban nhá",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27608_in_[0]",
         "labeled_text": "không bao giờ là có chuyện không hổ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27608_out_[2]",
         "labeled_text": "quần gió quần gió",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27608_in_[2]",
         "labeled_text": "cả bộ hết xong rồi đúng không anh",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27608_out_[3, 4]",
         "labeled_text": "gió lining mã a hai áo khoác gió thể thao nữ lining năm trăm rưỡi",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27608_out_[3, 4]",
         "labeled_text": "gió lining mã a hai áo khoác gió thể thao nữ lining năm trăm rưỡi",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27608_in_[3]",
         "labeled_text": "à được được đúng rồi anh anh vứt vứt vào nhà sáu năm ngõ ba trăm sáu hộ em phát",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27608_in_[3]",
         "labeled_text": "à được được đúng rồi anh anh vứt vứt vào nhà sáu năm ngõ ba trăm sáu hộ em phát",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27608_out_[5]",
         "labeled_text": "năm trăm rưỡi nhá em để vào nhà chuyển luôn cho em phát nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27608_out_[5]",
         "labeled_text": "năm trăm rưỡi nhá em để vào nhà chuyển luôn cho em phát nhá",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27609_out_[1, 2]",
         "labeled_text": "vâng chị có đơn hàng gửi vào sông hoài mình ở chỗ nào sông hoài nhở chị có cái đơn hàng hai bộ đèn nháy này",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27609_out_[1, 2]",
         "labeled_text": "vâng chị có đơn hàng gửi vào sông hoài mình ở chỗ nào sông hoài nhở chị có cái đơn hàng hai bộ đèn nháy này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27609_in_[2]",
         "labeled_text": "quán cà phê hương bưởi em",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27609_out_[3]",
         "labeled_text": "phê hương bưởi vâng vâng em biết",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27609_in_[3]",
         "labeled_text": "đấy em mang vào đây giúp chị",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27609_out_[4]",
         "labeled_text": "vâng vâng đợi em tí",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27612_in_[0]",
         "labeled_text": "nô",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27612_out_[0]",
         "labeled_text": "anh có đơn hàng máy chiếu này em đang ở cửa phụ đây",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27612_out_[0]",
         "labeled_text": "anh có đơn hàng máy chiếu này em đang ở cửa phụ đây",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27612_out_[0]",
         "labeled_text": "anh có đơn hàng máy chiếu này em đang ở cửa phụ đây",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27612_in_[1]",
         "labeled_text": "ô kê ô kê đang ra đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27614_in_[1]",
         "labeled_text": "alo alo",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27614_out_[0, 2]",
         "labeled_text": "chị ơi có cái đơn hàng yến đặt về cho ông ngọ ấy chị giờ em đang ở cửa đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27614_out_[0, 2]",
         "labeled_text": "chị ơi có cái đơn hàng yến đặt về cho ông ngọ ấy chị giờ em đang ở cửa đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27614_out_[0, 2]",
         "labeled_text": "chị ơi có cái đơn hàng yến đặt về cho ông ngọ ấy chị giờ em đang ở cửa đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27614_out_[0, 2]",
         "labeled_text": "chị ơi có cái đơn hàng yến đặt về cho ông ngọ ấy chị giờ em đang ở cửa đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27614_in_[3]",
         "labeled_text": "gọi ông ra nhận giúp chị với",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27614_out_[3, 4]",
         "labeled_text": "kêu ông ra nhận vâng ô kê chuyển khoản cho em nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27614_out_[3, 4]",
         "labeled_text": "kêu ông ra nhận vâng ô kê chuyển khoản cho em nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27614_in_[4]",
         "labeled_text": "vâng ạ ừ ừ nhắn cho chị số tài khoản",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27614_in_[4]",
         "labeled_text": "vâng ạ ừ ừ nhắn cho chị số tài khoản",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27614_out_[5]",
         "labeled_text": "vâng à ờ nhắn cho chị số tài khoản",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27614_out_[5]",
         "labeled_text": "vâng à ờ nhắn cho chị số tài khoản",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27613_out_[0, 2]",
         "labeled_text": "anh gì ơi lý do khám bệnh chị ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27613_in_[2]",
         "labeled_text": "có em cầm vào đây hộ chị cửa số bảy hộ chị để tí được không",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27613_in_[2]",
         "labeled_text": "có em cầm vào đây hộ chị cửa số bảy hộ chị để tí được không",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27613_in_[2]",
         "labeled_text": "có em cầm vào đây hộ chị cửa số bảy hộ chị để tí được không",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27613_out_[3]",
         "labeled_text": "dạ vâng vào chỗ quầy kính đấy à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27613_out_[3]",
         "labeled_text": "dạ vâng vào chỗ quầy kính đấy à",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27615_in_[1]",
         "labeled_text": "có đơn hàng này em",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27615_out_[1]",
         "labeled_text": "em em bên giao hàng chị có đơn hàng về chị nhận ở trong xóm bắc à",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27615_in_[2]",
         "labeled_text": "em ơi vứt ở kho được không tí chị qua kho đi lấy",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27615_out_[2]",
         "labeled_text": "rồi ô kê nhá em để kho nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27615_in_[3]",
         "labeled_text": "ô kê ừm ừm",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27621_out_[0, 1, 2]",
         "labeled_text": "có đơn hàng em để ở kho qua kho lấy em với chị nhá quần áo của lê vân anh một trăm bảy lăm nghìn chị ô kê chị yêu",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27621_out_[0, 1, 2]",
         "labeled_text": "có đơn hàng em để ở kho qua kho lấy em với chị nhá quần áo của lê vân anh một trăm bảy lăm nghìn chị ô kê chị yêu",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27621_out_[0, 1, 2]",
         "labeled_text": "có đơn hàng em để ở kho qua kho lấy em với chị nhá quần áo của lê vân anh một trăm bảy lăm nghìn chị ô kê chị yêu",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27621_out_[0, 1, 2]",
         "labeled_text": "có đơn hàng em để ở kho qua kho lấy em với chị nhá quần áo của lê vân anh một trăm bảy lăm nghìn chị ô kê chị yêu",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27625_out_[0, 2, 3]",
         "labeled_text": "em ơi em có có đơn hàng về chung cư ở tòa nào đấy em căn bao nhiêu để anh ghi vào đây em ở căn bao nhiêu để anh ghi vào",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27625_in_[2]",
         "labeled_text": "à giữa park 1 với park 2 ấy anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27625_out_[6]",
         "labeled_text": "chín mười giờ anh qua nhá chín rưỡi mười giờ gì đấy",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27624_in_[1]",
         "labeled_text": "ờ cái đấy à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27624_out_[1]",
         "labeled_text": "con điện thoại một triệu rưỡi ý anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27624_out_[1]",
         "labeled_text": "con điện thoại một triệu rưỡi ý anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27624_in_[2]",
         "labeled_text": "để để để chiều được không bây giờ đang phải bảo bạn nó chuyển khoản cái không có sợ ấy là chưa có tiền",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27624_out_[3, 4]",
         "labeled_text": "mai cho chắc nhá ừ anh",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27624_out_[3, 4]",
         "labeled_text": "mai cho chắc nhá ừ anh",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27624_in_[4]",
         "labeled_text": "ừm ừm ừm",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27629_in_[1]",
         "labeled_text": "tuấn vinh á tẩm quất tẩm quất",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27629_out_[2]",
         "labeled_text": "ô kê ô kê giờ qua luôn đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27637_out_[0, 1]",
         "labeled_text": "có nhà không giao hàng đây",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27637_out_[0, 1]",
         "labeled_text": "có nhà không giao hàng đây",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27637_in_[1]",
         "labeled_text": "đơn gì đấy",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27637_out_[2, 3, 5]",
         "labeled_text": "chưa dậy hay sao đấy chị ạ đôi giày đôi dép gì đấy một triệu ba trăm năm mươi mai chị về đi đơn tầm chín rưỡi mười giờ chị nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27637_out_[2, 3, 5]",
         "labeled_text": "chưa dậy hay sao đấy chị ạ đôi giày đôi dép gì đấy một triệu ba trăm năm mươi mai chị về đi đơn tầm chín rưỡi mười giờ chị nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27637_out_[2, 3, 5]",
         "labeled_text": "chưa dậy hay sao đấy chị ạ đôi giày đôi dép gì đấy một triệu ba trăm năm mươi mai chị về đi đơn tầm chín rưỡi mười giờ chị nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27637_in_[4]",
         "labeled_text": "thì được",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27637_out_[8]",
         "labeled_text": "được rồi cứ để chiều đi vậy",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27640_out_[1, 2]",
         "labeled_text": "bạn có cái đơn à ghi là máy ảnh ý",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27640_in_[1]",
         "labeled_text": "anh đến số nhà hai tám chưa ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27640_out_[4]",
         "labeled_text": "ở chỗ nào bạn nhở",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27640_in_[2, 3, 4, 5]",
         "labeled_text": "dốc khê đấy anh số nhà hai tám ở nhà thuốc phúc thành ạ ơ đúng rồi ạ thôn bốn ạ thôn bốn ạ",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27640_out_[6, 8]",
         "labeled_text": "thôn bốn là bạn ở xóm đình à xóm chùa á",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27640_in_[10]",
         "labeled_text": "ngõ năm tư",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27640_out_[11, 13]",
         "labeled_text": "ô kê ô kê số nhà hai ô kê ô kê",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27638_out_[1]",
         "labeled_text": "vâng mình có đơn hàng của phạm duyên ở kiên vũ đấy ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27638_out_[1]",
         "labeled_text": "vâng mình có đơn hàng của phạm duyên ở kiên vũ đấy ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27638_in_[1]",
         "labeled_text": "mang ra cho mình ở trường mầm non trầm lượng được không",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27638_out_[3]",
         "labeled_text": "chị ở trường mầm non ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27638_in_[2]",
         "labeled_text": "ừ ừ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27639_out_[2]",
         "labeled_text": "đơn hàng à một hộp năm mươi gam hay gì đây này ba trăm chín lăm nghìn đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27639_out_[2]",
         "labeled_text": "đơn hàng à một hộp năm mươi gam hay gì đây này ba trăm chín lăm nghìn đây này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27639_in_[2, 3]",
         "labeled_text": "cứ ở đấy để em bắn tiền luôn đứng ở đấy đứng ở cửa đi em xuống em lấy xong em bắn tiền luôn",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27643_out_[2, 7]",
         "labeled_text": "chị ơi nay chị có đơn hàng đấy chị có nhà không chị là cái này là trinh nữ hoàng cung chị ạ sáu trăm năm mươi nghìn ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27643_out_[2, 7]",
         "labeled_text": "chị ơi nay chị có đơn hàng đấy chị có nhà không chị là cái này là trinh nữ hoàng cung chị ạ sáu trăm năm mươi nghìn ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27643_out_[2, 7]",
         "labeled_text": "chị ơi nay chị có đơn hàng đấy chị có nhà không chị là cái này là trinh nữ hoàng cung chị ạ sáu trăm năm mươi nghìn ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27644_out_[1, 3]",
         "labeled_text": "cái đơn hàng giày của cậu cậu có nhận không đấy không lấy thì thôi huỷ đơn nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27644_out_[1, 3]",
         "labeled_text": "cái đơn hàng giày của cậu cậu có nhận không đấy không lấy thì thôi huỷ đơn nhá",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27644_in_[3]",
         "labeled_text": "giày á",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27645_out_[0]",
         "labeled_text": "có đơn hàng ra cổng lấy hộ em với chị em đang ở cửa đây",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27645_in_[1]",
         "labeled_text": "chị ờ không có nhà để chị gọi cháu ra lấy xong rồi để chị chuyển khoản cho",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27645_in_[1]",
         "labeled_text": "chị ờ không có nhà để chị gọi cháu ra lấy xong rồi để chị chuyển khoản cho",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27645_out_[1]",
         "labeled_text": "ô kê chị nhá hộ em với",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27649_out_[0]",
         "labeled_text": "chị ơi em giao lại đơn hôm qua đây ạ chị có nhà chưa ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27649_in_[1, 3]",
         "labeled_text": "có có nhà à xóm xóm ngoài này ngõ đầu đông hai số nhà không hai",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27649_out_[2, 3, 4]",
         "labeled_text": "dạ dạ gần nhà xóm chị vui đồ đông là nhà chị vui thoáng ấy ạ",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27649_in_[6]",
         "labeled_text": "ừ đấy xóm đấy đấy",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27650_out_[0, 2]",
         "labeled_text": "à mình có cái đơn hàng tiktok cái nồi chiên không dầu ấy anh vâng mình ở chỗ nào ngọc tảo anh nhở",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27650_out_[0, 2]",
         "labeled_text": "à mình có cái đơn hàng tiktok cái nồi chiên không dầu ấy anh vâng mình ở chỗ nào ngọc tảo anh nhở",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27650_in_[2, 3, 4]",
         "labeled_text": "giờ này em lại đang đi làm rồi mai có được không anh ơi ờ mai nhá mai mai anh nhá vâng vâng ô kê anh",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27653_out_[1]",
         "labeled_text": "vâng mình có đơn hàng của bác ờ hanh ở số nhà mười xóm trung giang ấy ạ bác có nhà không nhỉ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27653_out_[1]",
         "labeled_text": "vâng mình có đơn hàng của bác ờ hanh ở số nhà mười xóm trung giang ấy ạ bác có nhà không nhỉ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27653_out_[1]",
         "labeled_text": "vâng mình có đơn hàng của bác ờ hanh ở số nhà mười xóm trung giang ấy ạ bác có nhà không nhỉ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27657_out_[1]",
         "labeled_text": "mình giao đơn hàng này có hai đơn hàng này",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27657_in_[1]",
         "labeled_text": "cứ để vào vào ờ chỗ bảo vệ cho em cái",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27657_out_[2]",
         "labeled_text": "chuyển sớm cho em nhá để bọn em",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27658_out_[0]",
         "labeled_text": "alo chị hằng vi ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27658_in_[1]",
         "labeled_text": "ừ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27658_out_[2, 3, 6]",
         "labeled_text": "số nhà một trăm bốn sáu à chị ơi chờ chờ chờ em tí em chạy một bốn sáu",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27661_out_[0, 1, 2]",
         "labeled_text": "vâng nhà mình có đơn hàng của hưng dư ở trong sạch bái đấy ạ dạ vâng mình ở đoạn số nhà à bác hưng hưng nhà anh anh giáp đấy ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27661_out_[0, 1, 2]",
         "labeled_text": "vâng nhà mình có đơn hàng của hưng dư ở trong sạch bái đấy ạ dạ vâng mình ở đoạn số nhà à bác hưng hưng nhà anh anh giáp đấy ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27661_out_[0, 1, 2]",
         "labeled_text": "vâng nhà mình có đơn hàng của hưng dư ở trong sạch bái đấy ạ dạ vâng mình ở đoạn số nhà à bác hưng hưng nhà anh anh giáp đấy ạ",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27661_in_[1]",
         "labeled_text": "cô đi vắng nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27661_in_[1]",
         "labeled_text": "cô đi vắng nhá",
-        "labeled_intent": "Sự vụ"
+        "labeled_intent": "Sự vụ",
+        "description": "Thông báo các sự cố, sự việc phát sinh trong quá trình giao hàng, như mất hàng, giao sai địa chỉ,..."
     },
     {
         "key": "27661_out_[4]",
         "labeled_text": "ờ anh giáp lấy hộ bác à",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27661_in_[2, 4]",
         "labeled_text": "thế nhưng mà à để bác đến trưa tí nữa bác về thì là mang đến đến được không",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27661_in_[2, 4]",
         "labeled_text": "thế nhưng mà à để bác đến trưa tí nữa bác về thì là mang đến đến được không",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27661_in_[2, 4]",
         "labeled_text": "thế nhưng mà à để bác đến trưa tí nữa bác về thì là mang đến đến được không",
-        "labeled_intent": "Sự vụ"
+        "labeled_intent": "Sự vụ",
+        "description": "Thông báo các sự cố, sự việc phát sinh trong quá trình giao hàng, như mất hàng, giao sai địa chỉ,..."
     },
     {
         "key": "27664_out_[1, 2, 6]",
         "labeled_text": "em đứng ở bên kia đường hay chị qua được không tại vì em đi ơ xe cộ đông lắm thì chị đi bộ chị chạy sang được em đi xe máy này nó ngược chiều đường đi sang nguy hiểm lắm",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27664_in_[1]",
         "labeled_text": "làm việc em không sang được đâu",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27664_out_[7]",
         "labeled_text": "bên cái xe màu xanh ý chị sang đi",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27665_in_[1, 2]",
         "labeled_text": "chị lại đi làm mất ờ đến tầm à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27665_out_[1, 4]",
         "labeled_text": "thế chị làm ở đâu đấy có nhận được ở chỗ làm không rồi rồi đây đây em qua luôn",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27666_in_[1]",
         "labeled_text": "alo ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27668_in_[0]",
         "labeled_text": "alo ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27668_out_[3]",
         "labeled_text": "em giao hàng đây anh có đơn giày ở shop thuỳ bé lấy cho em",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27668_out_[3]",
         "labeled_text": "em giao hàng đây anh có đơn giày ở shop thuỳ bé lấy cho em",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27668_out_[3]",
         "labeled_text": "em giao hàng đây anh có đơn giày ở shop thuỳ bé lấy cho em",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27668_in_[2, 3]",
         "labeled_text": "chị cứ để cho số nhà không hai ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27668_out_[5]",
         "labeled_text": "ở ngõ mấy ạ",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27668_in_[5]",
         "labeled_text": "chị cứ để nhà cho em được",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27668_out_[7, 8, 9]",
         "labeled_text": "ô kê chuyển tiền đúng không ô kê ô kê em để vào nhà em chụp ảnh cho xong rồi chuyển khoản nhá số nhà hai mươi ngõ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27668_out_[7, 8, 9]",
         "labeled_text": "ô kê chuyển tiền đúng không ô kê ô kê em để vào nhà em chụp ảnh cho xong rồi chuyển khoản nhá số nhà hai mươi ngõ",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27668_out_[7, 8, 9]",
         "labeled_text": "ô kê chuyển tiền đúng không ô kê ô kê em để vào nhà em chụp ảnh cho xong rồi chuyển khoản nhá số nhà hai mươi ngõ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27670_out_[0]",
         "labeled_text": "đây em đến ờ chỗ sờ kai búc rồi anh ơi",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27670_in_[2, 4, 5]",
         "labeled_text": "có đường trong ở ngoài đường ngoài đường to đúng không đi vào nó có cái lối rẽ đường trong rồi đường sau quạ bốn bốn ở bên phải đây này bên phải tay phải đấy có xe đỏ đấy",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27672_in_[1]",
         "labeled_text": "ơ chưa",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27692_out_[0]",
         "labeled_text": "em giao hàng đây chị có nhà không",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27692_in_[1]",
         "labeled_text": "đơn hàng bao tiền ấy chị",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27692_out_[2]",
         "labeled_text": "đợi em tí",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27692_in_[3]",
         "labeled_text": "vứt ở cửa cho em tí nữa em chuyển khoản",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27692_in_[3]",
         "labeled_text": "vứt ở cửa cho em tí nữa em chuyển khoản",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27697_out_[2, 3, 5]",
         "labeled_text": "em đang bên ơ trạch xá nhà chị ở đoạn nào xóm nào đấy ạ xóm đông quan á thanh huệ thanh huệ ấy",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27697_out_[2, 3, 5]",
         "labeled_text": "em đang bên ơ trạch xá nhà chị ở đoạn nào xóm nào đấy ạ xóm đông quan á thanh huệ thanh huệ ấy",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27695_out_[1, 2]",
         "labeled_text": "hàng đây có đơn quần áo của shop gửi về đây có nhà không lấy cho em mười chín à chị để em chạy qua",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27695_out_[1, 2]",
         "labeled_text": "hàng đây có đơn quần áo của shop gửi về đây có nhà không lấy cho em mười chín à chị để em chạy qua",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27695_in_[3]",
         "labeled_text": "nhưng mà đây đang ở trên vườn cô cứ đi lên chỗ gốc cây muỗm to đi tôi lên đấy",
-        "labeled_intent": "Hỗ trợ, hướng dẫn"
+        "labeled_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
     },
     {
         "key": "27695_out_[3]",
         "labeled_text": "ở chỗ đằng vâng vâng vâng em đến đấy em gọi",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27695_in_[5]",
         "labeled_text": "cây muỗm",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27699_out_[0]",
         "labeled_text": "alo cháu giao hàng thôn ngô lân ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27699_out_[0]",
         "labeled_text": "alo cháu giao hàng thôn ngô lân ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27699_in_[1]",
         "labeled_text": "giao ơ giao đến nhà bảy hai nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27699_out_[1, 3]",
         "labeled_text": "ô số nhà bao nhiêu đây cô ừ ngõ ba à cô ơi",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27702_out_[1, 2]",
         "labeled_text": "ờ giờ có nhà không ra cổng nhận",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27702_in_[2]",
         "labeled_text": "đây chị từ phòng tập xuống đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27704_in_[0, 1]",
         "labeled_text": "nói liên tục ừ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27704_out_[0, 1]",
         "labeled_text": "alo em ship hàng ngõ mười ngỗ lân ạ có đơn hàng ạ đơn hàng giày eo vì anh ạ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27704_out_[0, 1]",
         "labeled_text": "alo em ship hàng ngõ mười ngỗ lân ạ có đơn hàng ạ đơn hàng giày eo vì anh ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27704_out_[0, 1]",
         "labeled_text": "alo em ship hàng ngõ mười ngỗ lân ạ có đơn hàng ạ đơn hàng giày eo vì anh ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27704_in_[4, 5, 6]",
         "labeled_text": "trưa ship được không anh em chưa chưa chưa chưa ship được đâu anh em đang đi khám lính trưa nay trưa nay anh ơi nhá trưa nay em ở nhà ô kê anh nhá",
-        "labeled_intent": "Sự vụ"
+        "labeled_intent": "Sự vụ",
+        "description": "Thông báo các sự cố, sự việc phát sinh trong quá trình giao hàng, như mất hàng, giao sai địa chỉ,..."
     },
     {
         "key": "27704_in_[4, 5, 6]",
         "labeled_text": "trưa ship được không anh em chưa chưa chưa chưa ship được đâu anh em đang đi khám lính trưa nay trưa nay anh ơi nhá trưa nay em ở nhà ô kê anh nhá",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27704_in_[4, 5, 6]",
         "labeled_text": "trưa ship được không anh em chưa chưa chưa chưa ship được đâu anh em đang đi khám lính trưa nay trưa nay anh ơi nhá trưa nay em ở nhà ô kê anh nhá",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27711_out_[0, 1, 2]",
         "labeled_text": "chị ơi chị có đơn hàng là bạn ề à gọi nhá đến gọi nhá em đang ở chỗ kia rồi nhá",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27711_in_[2]",
         "labeled_text": "ừ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27713_out_[0]",
         "labeled_text": "chị có đơn hàng sibada nhận được không chị ơi",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27713_out_[0]",
         "labeled_text": "chị có đơn hàng sibada nhận được không chị ơi",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27713_in_[1]",
         "labeled_text": "ừm cái gì đấy em",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27713_out_[1]",
         "labeled_text": "đó là sáp đuổi chuột ạ",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27713_in_[2, 3, 4]",
         "labeled_text": "thế à ừ nhưng chị giờ đương họp rồi thôi em cứ để ngoài công đi để chị xem nhá chị đưng họp chị đưng họp",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27713_out_[3]",
         "labeled_text": "nó chỉ cho xem vỏ ngoài nó không cho bóc seal đâu nhá",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27713_in_[5]",
         "labeled_text": "ừm rồi ô kê ừm ừm",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_in_[2]",
         "labeled_text": "từ chỗ cổng làng nhà tranh tôi đang đi lên đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[1]",
         "labeled_text": "uây giời ở đấy à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[1]",
         "labeled_text": "uây giời ở đấy à",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_in_[3, 4]",
         "labeled_text": "ẩn xuống đứng chờ một tí thì sao",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[2]",
         "labeled_text": "thế thì để ấy đi lúc nữa lúc nữa cháu qua gọi cô cháu tưởng cô ngay ở cầu quán lưu để thì quay lại tí",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_in_[5, 6, 7]",
         "labeled_text": "tập thì kệ ngay được chứ triển vòng lại con nít",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[4]",
         "labeled_text": "đang ở chỗ nào",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27719_in_[9]",
         "labeled_text": "chỉ cái đường đây thây",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27719_out_[5]",
         "labeled_text": "cô lên được luôn không hay là để lúc nữa để cháu quay xong đúng lăng cháu quay ra",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27719_in_[10, 11]",
         "labeled_text": "ăn đi đây đang đi đây giờ đang đi lên còn tôi lại phải đợi đây này tôi đi đang ở dưới bãi dưới đồng đang đi lên đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[6]",
         "labeled_text": "cô lấy đoạn địa điểm nào đây chỗ nhà thanh huệ hay là ở ngoài cổng làng",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27719_in_[13]",
         "labeled_text": "chị đang đi đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27719_out_[8]",
         "labeled_text": "từ lúc đấy mà vẫn chưa lên được đây",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27720_out_[0]",
         "labeled_text": "đơn hàng anh có nhà không anh",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27720_in_[1]",
         "labeled_text": "anh đi làm cứ vứt vào nhà cho anh cái",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27720_out_[1]",
         "labeled_text": "anh đi làm cứ vứt",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     },
     {
         "key": "27720_in_[2]",
         "labeled_text": "không gửi số tài khoản anh",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27720_out_[3]",
         "labeled_text": "ừ không để số tài khoản anh số nhà mười lăm ngõ hai thôn bốn đúng không anh",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27720_in_[3]",
         "labeled_text": "ôi đúng ôi đúng ồi",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27720_out_[5]",
         "labeled_text": "ừ",
-        "labeled_intent": "Tương tác"
+        "labeled_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
     },
     {
         "key": "27721_out_[1]",
         "labeled_text": "alo ạ vâng cháu giao đơn hàng này chú ơi chú ra cổng nhận cháu đơn hàng đây này",
-        "labeled_intent": "Hỏi thông tin giao hàng"
+        "labeled_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
     },
     {
         "key": "27721_in_[1, 2, 3]",
         "labeled_text": "dạ ngõ số tám đấy rồi bảo chị chuyển khoản cho cái vào ngõ bu mười một báo em bảo bà ấy bảo chị là vợ anh chuyển khoản cho cái",
-        "labeled_intent": "Cung cấp thông tin"
+        "labeled_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
     },
     {
         "key": "27721_in_[1, 2, 3]",
         "labeled_text": "dạ ngõ số tám đấy rồi bảo chị chuyển khoản cho cái vào ngõ bu mười một báo em bảo bà ấy bảo chị là vợ anh chuyển khoản cho cái",
-        "labeled_intent": "Yêu cầu"
+        "labeled_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
     }
 ]

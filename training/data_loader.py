@@ -47,7 +47,7 @@ class QGDataCollator:
             return_tensors="pt"
         )
 
-        # labels = torch.arange(len(batch), dtype=torch.long)
+        labels = torch.arange(len(batch), dtype=torch.long)
 
-        return representations, descriptions
+        return representations, descriptions, labels
     

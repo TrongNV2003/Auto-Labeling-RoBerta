@@ -6,4 +6,4 @@ torchrun training/train.py \
 --learning_rate 2e-5 \
 --save_steps 50 \
 --batch_size 16 \
---train_file dataset/dataset.json
+--train_file intent_dataset/train.json
