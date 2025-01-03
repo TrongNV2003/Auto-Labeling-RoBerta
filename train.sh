@@ -5,5 +5,5 @@ torchrun training/train.py \
 --epochs 3 \
 --learning_rate 2e-5 \
 --save_steps 50 \
---batch_size 16 \
+--batch_size 8 \
 --train_file intent_dataset/train.json

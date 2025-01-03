@@ -67,7 +67,7 @@ if __name__ == "__main__":
         train_dataset=train_set,
         eval_dataset=None,
         loss_kwargs={
-            "tau": 10
+            "tau": 20
         },
         tokenizer=tokenizer,
         args = TrainingArguments(
