@@ -1,8 +1,8 @@
 import json
 import torch
-import numpy as np
 from transformers import AutoTokenizer, RobertaModel
 from sklearn.metrics.pairwise import cosine_similarity
+
 torch.cuda.empty_cache()
 
 class EmbeddingSimilarityLabeler:
@@ -13,125 +13,87 @@ class EmbeddingSimilarityLabeler:
         self.model.eval()
         self.label_embeddings = {}
 
-    # add nhãn và mô tả vào embedding (có thể mở rộng)
-    def add_label(self, document_type, label, description):
+    def add_label(self, label, description):
         inputs = self.tokenizer(description, return_tensors="pt", padding=True, truncation=True, max_length=256).to(self.device)
 
         with torch.no_grad():
             outputs = self.model(**inputs)
 
-        if document_type not in self.label_embeddings:
-            self.label_embeddings[document_type] = {}
-        self.label_embeddings[document_type][label] = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
+        self.label_embeddings[label] = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
 
-    def predict(self, text, document_type):
+    def predict(self, text):
         inputs = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=256).to(self.device)
+
         with torch.no_grad():
             outputs = self.model(**inputs)
 
         text_embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
 
-        if document_type in self.label_embeddings:
-            similarities = {label: cosine_similarity(text_embedding, emb)[0][0]
-                            for label, emb in self.label_embeddings[document_type].items()}
+        similarities = {label: cosine_similarity(text_embedding, emb)[0][0] for label, emb in self.label_embeddings.items()}
 
-            top_label = sorted(similarities.items(), key=lambda x: x[1], reverse=True)[:1]
-            return [top_label]
+        top_label = sorted(similarities.items(), key=lambda x: x[1], reverse=True)[:1]
+        return top_label[0] if top_label else None
 
 
-# ----------------------------------------------
-MODEL = "roberta-embeddings-contrastive-learning-full-dataset"
+# Khởi tạo model
+MODEL = "embedding-encoder-model"
 labeler = EmbeddingSimilarityLabeler(MODEL)
 
+# Đọc và thêm nhãn từ file
 def add_label_file(label_file):
     with open(label_file, 'r', encoding='utf-8') as f:
         label_data = json.load(f)
+
     for label_item in label_data:
-        document_type = label_item["Loại chứng từ chuẩn hoá"].strip()
-        labels = label_item["Nghiệp vụ chi tiết (đầu ra)"].strip().split('; ')
-        for label in labels:
-            label_desc = label_item["Mô tả chi tiết cho \"Nghiệp vụ chi tiết\""].strip()
-            labeler.add_label(document_type, label, label_desc)
+        label_intent = label_item["label_intent"]
+        description = label_item["description"]
+        labeler.add_label(label_intent, description)
 
-
-def predict_label(customer_file):
-    with open(customer_file, 'r', encoding='utf-8') as f:
-        customer_data = json.load(f)
-    for i, customer_item in enumerate(customer_data):
-        customer_type = customer_item["Loại CT"].strip()
-        customer_text = customer_item["Diễn giải"].strip()
-        if customer_text is None or customer_text.strip() == "":
-            continue
-
-        top_label = labeler.predict(customer_text, customer_type)
-        top_label = top_label[0]
-        if top_label:
-            customer_item['label top 1'] = top_label[0][0]
-            print(f"Best label for document {i+1}: {top_label}")
-        else:
-            customer_item['label top 1'] = "Không có nhãn phù hợp"
-            print(f"No matching label found for document {i+1}")
-
-    with open('updated_customer_data.json', 'w', encoding='utf-8') as f:
-        json.dump(customer_data, f, ensure_ascii=False, indent=4)
-    
-
-def calculate_accuracy(data_file, label_file):
+# Dự đoán nhãn cho dữ liệu khách hàng
+def predict_label(data_file, output_file):
     with open(data_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    with open(label_file, 'r', encoding='utf-8') as f:
-        label_data = json.load(f)
-
-    total_records = 0
-    total_score = 0
-    max_score = 10
 
     for item in data:
-        customer_label = item.get("Loại nghiệp vụ").strip()
-        first_predict_label = item.get("label top 1").strip()
-        describe = item.get("Diễn giải").strip()
-        
-        for label_item in label_data:
-            label_type = label_item["Loại chứng từ chuẩn hoá"].strip()
-            labels = label_item["Nghiệp vụ chi tiết (đầu ra)"].strip()
-
-        if customer_label is None or first_predict_label is None or describe is None:
+        labeled_text = item.get("labeled_text", "").strip()
+        if not labeled_text:
             continue
 
-        total_records += 1
+        top_label = labeler.predict(labeled_text)
+        if top_label:
+            item['label_intent'] = top_label[0]
+            item['similarity_score'] = float(top_label[1])
+        else:
+            item['label_intent'] = "Không có nhãn phù hợp"
+            item['similarity_score'] = 0.0
 
-        labels_processed = [
-            item.get("label top 1")
-            # item.get("label top 2"),
-            # item.get("label top 3"),
-            # item.get("label top 4"),
-            # item.get("label top 5")
-        ]
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
-        # weights = [1.0, 1.0, 1.0, 1.0, 1.0]
+def eval(result_file):
+    with open(result_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-        match_score = 0
-        for idx, label in enumerate(labels_processed):
-            if label is not None and customer_label.strip().lower() == first_predict_label.strip().lower():
-                # match_score = max_score * weights[idx]
-                match_score = max_score
-                break
+    total = len(data)
+    correct = 0
+    for item in data:
+        label_intent = item.get("labeled_intent", "").strip()
+        true_label = item.get("label_intent", "").strip()
 
-        total_score += match_score
+        if label_intent == true_label:
+            correct += 1
 
-    if total_records > 0:
-        accuracy = (total_score / (total_records * max_score)) * 100
-    else:
-        accuracy = 0.0
-
-    print("Tên file: ", data_file)
-    print(f"Tổng số bản ghi hợp lệ: {total_records}")
-    print(f"Độ chính xác: {accuracy:.2f}%")
+    print(f"Accuracy: {correct}/{total} = {correct/total*100:.2f}%")
 
 if __name__ == "__main__":
-    customer_file = 'dataset/test_intrain.json'
-    label_file = 'Danh sách loại nghiệp vụ1.json'
-    output_file = "updated_customer_data.json"
+    label_file = 'intent_dataset/label.json'  # File chứa nhãn
+    data_file = 'intent_dataset/eval.json'     # File dữ liệu cần gán nhãn
+    output_file = 'intent_dataset/updated_data.json'  # File kết quả
+
+    # Thêm nhãn từ file
     add_label_file(label_file)
-    predict_label(customer_file)
-    calculate_accuracy(output_file, label_file)
+
+    # Gán nhãn cho dữ liệu
+    predict_label(data_file, output_file)
+
+    eval(output_file)

@@ -1,0 +1,30 @@
+[
+    {
+        "label_intent": "Hỏi thông tin giao hàng",
+        "description": "Đưa ra câu hỏi để thu thập các thông tin liên quan đến giao hàng, như thời gian, địa điểm, phí,..."
+    },
+    {
+        "label_intent": "Tương tác",
+        "description": "Các câu nói giao tiếp cơ bản thường xuất hiện trong hội thoại thông thường giữa 2 người"
+    },
+    {
+        "label_intent": "Cung cấp thông tin",
+        "description": "Cung cấp dữ liệu hoặc chi tiết liên quan đến giao hàng, đơn hàng, hoặc thanh toán."
+    },
+    {
+        "label_intent": "Sự vụ",
+        "description": "Thông báo các sự cố, sự việc phát sinh trong quá trình giao hàng, như mất hàng, giao sai địa chỉ,..."
+    },
+    {
+        "label_intent": "Yêu cầu",
+        "description": "Đưa ra các yêu cầu cụ thể, đặc biệt nằm ngoài các thông tin giao hàng cơ bản như thay đổi thông tin giao hàng, thời gian giao, hoặc đổi trả sản phẩm."
+    },
+    {
+        "label_intent": "Hỗ trợ, hướng dẫn",
+        "description": "Cung cấp các chỉ dẫn, giải thích hoặc trợ giúp liên quan đến quy trình hoặc vấn đề cụ thể."
+    },
+    {
+        "label_intent": "Phản hồi",
+        "description": "Cung cấp nhận xét, đánh giá hoặc mức độ hài lòng về sản phẩm, dịch vụ hoặc giao dịch."
+    }
+]

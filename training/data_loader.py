@@ -18,7 +18,7 @@ class QGDataset(torch.utils.data.Dataset):
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
         text_representation = item["labeled_text"]
-        text_description = item["labeled_intent"]
+        text_description = item["description"]
 
         return text_representation, text_description
 
